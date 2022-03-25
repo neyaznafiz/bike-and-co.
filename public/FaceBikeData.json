@@ -1,0 +1,74 @@
+[
+    {
+      "id": 101,
+      "name": "KTM Electric Superbike",
+      "price": 599999,
+      "img": "https://i0.wp.com/www.asphaltandrubber.com/wp-content/uploads/2020/08/KTM-RC-Electric-motorcycle-concept-Mohit-Solanki-07.jpg?ssl=1"
+    },
+    {
+      "id": 102,
+      "name": "Shapeshifts Aerodynamic Model",
+      "price": 1009999,
+      "img": "https://inteng-storage.s3.amazonaws.com/img/iea/jvwvZQoywx/sizes/hypercycle_md.jpg"
+    },
+    {
+      "id": 103,
+      "name": "Mission R: a real electric superbike",
+      "price": 2490000,
+      "img": "https://cdn.motor1.com/images/mgl/QR1nB/s1/4x3/mission-r-a-real-electric-superbike-you-can-buy-soon.webp"
+    },
+    {
+      "id": 104,
+      "name": "MV Agusta Rush 1000 Superbike",
+      "price": 2799900,
+      "img": "https://manofmany.com/wp-content/uploads/2019/11/MV-Agusta-Rush-1000-Superbike-2.jpg"
+    },
+    {
+      "id": 105,
+      "name": "Ducati Powered Alyen",
+      "price": 2659999,
+      "img": "https://assets.newatlas.com/dims4/default/860aa17/2147483647/strip/true/crop/2000x1332+0+84/resize/728x485!/quality/90/?url=http%3A%2F%2Fnewatlas-brightspot.s3.amazonaws.com%2Fec%2Ffa%2F882cc9384bb7a345e8300365314e%2Falyen-rh.jpg"
+    },
+    {
+      "id": 106,
+      "name": "Aston Martin Superbike",
+      "price": 255,
+      "img": "https://cimg0.ibsrv.net/ibimg/hgm/1919x1079-1/100/722/2020-amb-001-by-aston-martin-and-brough-superior_100722892.jpg"
+    },
+    {
+      "id": 107,
+      "name": "Ducati launches cruiser",
+      "price": 1753000,
+      "img": "https://m.economictimes.com/thumb/msid-54348567,width-1200,height-900,resizemode-4,imgsize-131199/ducati-launches-cruiser-bike-xdiavel-in-india-for-rs-15-87-lakh.jpg"
+    },
+    {
+      "id": 108,
+      "name": "Red Rose Bookey",
+      "price": 255,
+      "img": "./Images/red-rose.jpg"
+    },
+    {
+      "id": 109,
+      "name": "Red Rose Bookey",
+      "price": 255,
+      "img": "./Images/red-rose.jpg"
+    },
+    {
+      "id": 110,
+      "name": "Ducati Diavel Dark",
+      "price": 1999999,
+      "img": "https://www.totalmotorcycle.com/wp-content/uploads/2017/11/2018-Ducati-Diavel3.jpg"
+    },
+    {
+        "id": 111,
+        "name": "1990 Ducati 851",
+        "price": 705500,
+        "img": "https://i.pinimg.com/originals/39/0a/f9/390af9435ea5d574e028df1dcd1f854e.jpg"
+      },
+      {
+        "id": 112,
+        "name": "Kawasaki Ninja 650",
+        "price": 855699,
+        "img": "https://gumlet.assettype.com/fastbikesindia%2F2019-10%2Ffdb57405-727a-4e50-9d3d-60b393f4b618%2Fninja_650_static.jpg?format=auto"
+      }
+  ]
