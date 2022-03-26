@@ -5,7 +5,7 @@ import './Cart.css'
 const Cart = ({ cart, Delete }) => {
 
     const [random, setRandom] = useState({})
-    
+
 
     const selectRandomProduct = (cart) => {
         let randomProduct = Math.floor(Math.random() * cart.length)
@@ -13,14 +13,14 @@ const Cart = ({ cart, Delete }) => {
         setRandom(randomResult)
     }
 
-    
+
 
     return (
 
         <div className='cart'>
-            <h3>Order Summary</h3>
+            
             <div className='info-container'>
-
+            <h4>Selected Bikes</h4>
                 {
                     cart.map((product) => (
                         <div className='product-info-in-cart' key={product.id}>
@@ -29,17 +29,17 @@ const Cart = ({ cart, Delete }) => {
                         </div>
                     ))
                 }
-            </div>
-<hr />
-            <div >
-                <h5>Random Choose Section</h5>
-                <div className='random'>
-                <img src={random.img} alt="" />
-                <p>{random.name}</p>
-                </div>
+
             </div>
 
-            <button onClick={() => selectRandomProduct(cart)}>Click Here To Choose One</button>
+
+            <div className='random'>
+                <img src={random.img} alt="" />
+                <p>{random.name} </p>
+
+                <button onClick={() => selectRandomProduct(cart)}>Click To Choose One</button>
+            </div>
+
             <br />
 
             <button onClick={Delete}>Select Again</button>
