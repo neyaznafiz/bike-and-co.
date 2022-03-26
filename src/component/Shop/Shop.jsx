@@ -21,18 +21,22 @@ const Shop = () => {
             .then(data => setProducts(data))
     }, [])
 
-    
+
     const addToCartHandle = (product) => {
         const newCart = [...cart, product]
-      
-     setCart(newCart);
+
+        if(newCart.length > 4){
+            alert('You already added 4 product')
+        }
+
+        setCart(newCart);
 
     }
 
 
     return (
         <div className='shop-container'>
-            
+
             <div className="product-container">
 
                 {
@@ -46,8 +50,8 @@ const Shop = () => {
             </div>
 
             <div className="">
-                <Cart 
-                cart={cart}
+                <Cart
+                    cart={cart}
                 ></Cart>
             </div>
         </div>
