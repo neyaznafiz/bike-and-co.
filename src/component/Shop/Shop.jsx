@@ -30,8 +30,9 @@ const Shop = () => {
     if (newCart.length > 4) {
       alert('You already added 4 product')
     }
-
-    setCart(newCart);
+    else {
+      setCart(newCart);
+    }
 
   }
 

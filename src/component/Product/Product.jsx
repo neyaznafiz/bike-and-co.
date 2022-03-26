@@ -10,11 +10,13 @@ const Product = ({ product, addToCartHandle }) => {
     return (
         <div className='product'>
             <img src={img} alt="" />
-            <div className=''>
+            <div className='product-info'>
                 <h5>{name}</h5>
                 <p>Price : ${price}</p>
+
+                <button onClick={() => addToCartHandle(product)} className='addtocart'><span>Add To Cart</span> <BsMinecart /></button>
             </div>
-            <button onClick={() => addToCartHandle(product)} className='addtocart'><span>Add To Cart</span> <BsMinecart /></button>
+            
         </div>
     );
 };
