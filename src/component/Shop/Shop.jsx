@@ -1,6 +1,7 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { BsTypeH1 } from 'react-icons/bs';
 import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css'
@@ -11,7 +12,7 @@ const Shop = () => {
     const [products, setProducts] = useState([])
 
     const [cart, setCart] = useState([])
-    console.log(cart);
+    // console.log(cart);
 
     useEffect(() => {
 
@@ -22,16 +23,17 @@ const Shop = () => {
 
     
     const addToCartHandle = (product) => {
-        // const newCart = [...cart, products.name]
-        // setCart(newCart)
-     setCart(product);
+        const newCart = [...cart, product]
+      
+     setCart(newCart);
 
     }
 
 
     return (
         <div className='shop-container'>
-            <div className="col-md-10 product-container">
+            
+            <div className="product-container">
 
                 {
                     products.map(product => <Product
@@ -42,7 +44,8 @@ const Shop = () => {
                 }
 
             </div>
-            <div className="col-md-2">
+
+            <div className="">
                 <Cart 
                 cart={cart}
                 ></Cart>
