@@ -1,4 +1,3 @@
-
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './component/Header/Header';
@@ -11,6 +10,8 @@ function App() {
       <Shop></Shop>
 
       {/* question answer section */}
+
+      <h4>Explore Some Quuestion About React</h4>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item">
           <h2 className="accordion-header" id="headingOne">

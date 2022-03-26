@@ -31,7 +31,7 @@ const Shop = () => {
 
     // cerror handle 
     if (newCart.length > 4) {
-      alert('You already added 4 product')
+      alert('You already added 4 products')
     }
     else {
       setCart(newCart);
