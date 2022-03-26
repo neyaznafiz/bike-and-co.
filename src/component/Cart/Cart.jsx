@@ -5,9 +5,15 @@ const Cart = ({ cart }) => {
 
     return (
         <div>
-            <h1>Order Summary</h1>
+            <div>
+                <h1>Order Summary</h1>
 
-            <p>Name : {cart}</p>
+                {/* <p> {cart}</p> */}
+            </div>
+            <div>
+                <button>Click to random Select</button>
+                <button>Select Again</button>
+            </div>
         </div>
     );
 };
