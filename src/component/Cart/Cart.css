@@ -1,3 +1,25 @@
-.cart-container{
+.cart-container h3 {
     border: 2px solid gray;
+    border-radius: 10px;
+    background-color: #cad5e2;
+    margin: 20px;
+    padding: 10px;
 }
+
+.info-container{
+    margin: 20px;
+}
+.product-info-in-cart{
+    border: 2px solid gray;
+    border-radius: 10px;
+    background-color: rgba(32, 115, 152, 0.5);
+    margin: 10px;
+}
+
+.product-info-in-cart img {
+    border-radius: 10px;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
