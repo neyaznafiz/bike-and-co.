@@ -43,15 +43,15 @@
     },
     {
       "id": 108,
-      "name": "Red Rose Bookey",
-      "price": 255,
-      "img": "./Images/red-rose.jpg"
+      "name": "Damon Hypersport Pro",
+      "price": 2000000,
+      "img": "https://www.thesportsman.com/media/images/admin/other/SM-Electric-Superbikes-Damonjpeg.jpeg"
     },
     {
       "id": 109,
-      "name": "Red Rose Bookey",
-      "price": 255,
-      "img": "./Images/red-rose.jpg"
+      "name": "The Verge TS",
+      "price": 1755000,
+      "img": "https://www.thesportsman.com/media/images/admin/other/SM-Electric-Superbikes-Vergejpeg.jpeg"
     },
     {
       "id": 110,
