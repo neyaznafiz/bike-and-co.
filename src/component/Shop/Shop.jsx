@@ -23,11 +23,16 @@ const Shop = () => {
 
 
     const addToCartHandle = (product) => {
+
+        // const { name, img } = product
+        // console.log(img);
         const newCart = [...cart, product]
 
-        if(newCart.length > 4){
-            alert('You already added 4 product')
-        }
+
+        // if (newCart.length > 4) {
+        //     alert('You already added 4 product')
+        // }
+
 
         setCart(newCart);
 
