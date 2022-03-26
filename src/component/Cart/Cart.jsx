@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import './Cart.css'
 
-const Cart = ({ cart }) => {
+const Cart = ({ cart, Delete }) => {
 
     const [random, setRandom] = useState({})
     
@@ -30,16 +30,19 @@ const Cart = ({ cart }) => {
                     ))
                 }
             </div>
-
-            <div className='random'>
+<hr />
+            <div >
+                <h5>Random Choose Section</h5>
+                <div className='random'>
                 <img src={random.img} alt="" />
                 <p>{random.name}</p>
+                </div>
             </div>
 
-            <button onClick={() => selectRandomProduct(cart)}>Click To Random Select</button>
+            <button onClick={() => selectRandomProduct(cart)}>Click Here To Choose One</button>
             <br />
 
-            <button>Select Again</button>
+            <button onClick={Delete}>Select Again</button>
         </div>
 
 
