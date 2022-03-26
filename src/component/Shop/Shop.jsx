@@ -9,11 +9,13 @@ import './Shop.css'
 
 const Shop = () => {
 
+  // product set
   const [products, setProducts] = useState([])
 
+  // cart set
   const [cart, setCart] = useState([])
-  // console.log(cart);
 
+  // data fetch
   useEffect(() => {
 
     fetch("FakeBikeData.json")
@@ -21,12 +23,13 @@ const Shop = () => {
       .then(data => setProducts(data))
   }, [])
 
-
+  // select product for cart handle 
   const addToCartHandle = (product) => {
 
 
     const newCart = [...cart, product]
 
+    // cerror handle 
     if (newCart.length > 4) {
       alert('You already added 4 product')
     }
@@ -36,6 +39,7 @@ const Shop = () => {
 
   }
 
+  // select again button handle
   const Delete = () => {
     setCart([])
   }
@@ -44,7 +48,7 @@ const Shop = () => {
     <div className='shop-container'>
 
       <div className="product-container">
-
+        {/* map from product */}
         {
           products.map(product => <Product
             key={product.id}
@@ -54,6 +58,7 @@ const Shop = () => {
         }
       </div>
 
+      {/* cart section */}
       <div className="cart-container">
         <Cart
           Delete={Delete}
